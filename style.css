@@ -44,6 +44,7 @@ nav a{
 nav img{
     display: none;
 }
+
 .banner{
     border-radius: 16px;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url("images/Group\ 13\ \(1\)\ \(1\).png");
@@ -58,11 +59,8 @@ nav img{
     font-size: 64px;
     font-weight: 800;
 }
-p{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px
-}
+
+
 input,select{
     width: 174px;
     height: 50px;
@@ -125,6 +123,7 @@ input,select{
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+    align-items: center;
 }
 .popularTours h2{
     font-size: 40px;
@@ -198,13 +197,13 @@ input,select{
     justify-content: center;
     margin-top: 50px;
 }
-.card{
+.card1{
     border-radius: 1rem;
     padding: 15px;
     width: 35.8125rem;
     
 }
-.card img{
+.card1 img{
     height: 4rem;
     width: 4rem;
 }
@@ -220,3 +219,187 @@ input,select{
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
 }
+.card-container{
+    border-radius: 1rem;
+    width: 73.125rem;
+    height: 31.25rem;
+    display: flex;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.deals{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.dealsText{
+    text-align: center;
+    padding: 0 10%;
+}
+.dealsText h1{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.card{
+    border-radius: 1rem;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding:15px 45px;
+    width: 36.1875rem;
+    height: 24.3125rem;
+    margin: 35px;
+
+}
+.card h2{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.card h3{
+    color: #FF5400;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+.icontext{
+    display: flex;
+    align-items: center;
+
+}
+.icontext p{
+    display: inline;
+}
+.icontext img{
+    color: #FF5400;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 10px;
+}
+.icontextholder{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+#first,#third{
+    background: url("images/Group\ 39.png"), lightgray 50% ;
+    justify-content: end;
+}
+#second{
+    background: url("images/Group\ 40.png"), lightgray 50% ;
+    justify-content: start;
+}
+.list li{
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.625rem;
+}
+.peace{
+    line-height: 45px;
+    
+}
+.video{
+    width: 38.125rem;
+    border-radius: 10px;
+}
+.news{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    
+}
+.newsletter{
+    border-radius: 1rem;
+    border: 1px solid #FF5400;
+    padding: 30px;
+    height: 23.375rem;
+
+}
+.newsletter h2{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    color: #131318;
+    margin-top: 0;
+}
+.newsform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+
+}
+.newsform input{
+    display: block;
+    width: 24.5625rem;;
+    border-radius: 0.5rem;
+    background: rgba(19, 19, 24, 0.05);
+}
+.newsform button{
+    width:24.5625rem;
+}
+hr{
+    color: #424247;
+    margin: 25px 0;
+}
+.sticker{
+    width: 40%;
+    border-radius: 8px;
+    background: #FF5400;
+    height: 20%;
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+    left: 58.5%;
+    bottom: 31%;
+    transform: rotate(-20deg);
+    
+
+}
+.sticker h3{
+    margin-top: 0;
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.sticker h4{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+footer img{
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+    border-radius: 10px;
+
+}
+footer{
+    text-align: center;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 50px 0px;
+}
+footer h2{
+    margin-left: 10px;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.footerhead{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+footer hr{
+    width: 75%;
+    margin: 20px auto ;
+}
+

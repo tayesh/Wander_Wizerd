@@ -47,8 +47,8 @@
         padding: 10% auto;
         
     }
-    .popularTours h2{
-        text-wrap: nowrap;
+    #twrap{ 
+               text-wrap: nowrap;
     }
     .popularTours img{
         width: 110%;
@@ -72,5 +72,73 @@
    .destination{
     margin-top: 1000px;
    }
+   .choose{
+    margin-top: 2100px;
+   }
+   .choosetext p{
+    padding: 0 10%;
+
+   }
+   .card1{
+    width: 20.9375rem;
+    height: 18.0625rem;
+   }
+   .card-container{
+    width: 20.9375rem;
+    
+   }
+   .card{
+    width: 18.9375rem;
+    padding: 20px 10px 10px 20px;
+    
+    
+   }
+   .card p{
+    margin-top: 0;
+    line-height: 15px;
+   }
+   .overflow{
+    display: none;
+   }
+   .icontextholder{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 0px;
+    margin-bottom: 0;
+    }
+    .icontext{
+        flex-direction: row;
+        align-items: center;
+    }
+    .icontext p{
+       
+        margin: 0;
+    }
+    .video{
+         width: 20.9375rem;
+    }
+    .peacetext{
+        width: 20.9375rem;
+    }
+    .peace{
+        text-wrap: wrap;
+    }
+    .news{
+        margin-top: 500px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .newsletter{
+        width: 23.4375rem;
+    }
+    .news img{
+         width: 26.4375rem; ;
+    }
+    .sticker{
+       position: relative;
+       bottom: 157px;
+    }
+    
 
 }
