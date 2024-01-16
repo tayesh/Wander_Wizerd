@@ -1,0 +1,222 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+
+*{
+    font-family: Mulish;
+}
+body{
+    margin: 0;
+    padding: 0 0 0 0;
+}
+.primaryColor{
+    color: #FF5400;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding:0 10%;
+    align-items: center;
+}
+.name{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 30px;
+    font-weight: 800;
+    display: flex;
+    text-wrap: nowrap;
+    align-items: center;
+}
+.name img{
+    height: 60px;
+    width: 60px;
+    margin-right: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: #424247;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 1.5em;
+}
+nav img{
+    display: none;
+}
+.banner{
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url("images/Group\ 13\ \(1\)\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin: 3% 10%;
+    color: #FFF;
+    padding: 3% 10%;
+}
+.banner h1{
+    font-size: 64px;
+    font-weight: 800;
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px
+}
+input,select{
+    width: 174px;
+    height: 50px;
+    border: 0;
+    outline: 0;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 10px ;
+}
+.select{
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.30);
+    border-radius: 8px;
+    padding:1.1em;
+    gap: 20px;
+    width: fit-content;
+    height: fit-content;
+    margin: 50px auto;
+
+}
+.findNow img{
+    height: 25px;
+    margin-right: 10px;
+}
+.findNow {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+    
+
+       
+}
+.findNow h3{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    display: inline;
+}
+.findNow div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.customPadding{
+    padding-left: 30px;
+}
+.popularTours{
+    display: flex;
+    gap: 3.31em;
+    padding: 10%;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.popularTours h2{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    color: #131318;
+    margin-top: 0;
+}
+
+.primaryButton {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    
+
+       
+}
+.destination{
+    padding:0 10%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.destination h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.image-container{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+
+    margin: 0 auto;
+}
+.overlayText {
+    position: relative;
+    bottom: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    font-family: "Borel", cursive;
+    font-size: 24px; 
+    font-weight: bold; 
+    text-align: center;
+    width: 100%;
+    height: 0;
+    box-sizing: border-box;
+  }
+.choose{
+    margin-top: 1050px;
+}
+.choosetext{
+    text-align: center;
+}
+.choosetext h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.choosecard{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.card{
+    border-radius: 1rem;
+    padding: 15px;
+    width: 35.8125rem;
+    
+}
+.card img{
+    height: 4rem;
+    width: 4rem;
+}
+#hotel{
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);    
+}
+#service{
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+#price{
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
