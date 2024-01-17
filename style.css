@@ -375,6 +375,70 @@ hr{
     font-weight: 400;
     margin-bottom: 0;
 }
+.experience{
+    text-align: center;
+    padding: 10%;
+}
+.experience textarea{
+    width:80%;
+    border: 2px solid #FF5400;
+    border-radius: 10px;
+    overflow: auto;
+    padding:20px 40px;
+    font-size: 24px;
+}
+.submit{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  
+    border:2px solid #424247;
+    padding: 10px 10%;
+}
+.file-input-container {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:0 10%;
+    width: 80%;
+    
+}
+.file-input-container h3{
+    border-radius: 10px;
+    border:2px solid #FF5400;
+    padding: 10px 40px;
+    width: 40%;
+}
+
+/* Style for the actual file input */
+#fileInput {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: -1;
+    height: 30px;
+}
+
+/* Style for the visible part of the file input */
+.file-input-label {
+    display: inline-block;
+    padding: 15px 40px ;
+    margin: 0;
+    background-color:#FF5400;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover effect for the label */
+.file-input-label:hover {
+    background-color:#f55200;
+}
 footer img{
     height: 50px;
     width: 50px;

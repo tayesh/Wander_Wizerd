@@ -139,6 +139,14 @@
        position: relative;
        bottom: 157px;
     }
+    footer{
+        width: 100%;
+    }
+    .file-input-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    
     
 
 }
